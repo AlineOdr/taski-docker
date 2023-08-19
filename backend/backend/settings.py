@@ -14,9 +14,6 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = []
 
-
-
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
